@@ -1,0 +1,30 @@
+@import "variables";
+
+@import "catalog";
+@import "header";
+@import "menu";
+
+body,
+html{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: $color-gray;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  height: 100%;
+}
+
+main{
+  padding: 20px;
+}
+
+.main-page{
+  background-image: url("../images/backgroundMain.jpeg");
+}
+
+.blankets-page{
+  background-image: url("../images/backgroundBlankets.jpg");
+  background-position-y: -140px;
+}

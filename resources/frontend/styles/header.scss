@@ -1,0 +1,30 @@
+@import "variables";
+
+header{
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  z-index: 9;
+  .logo{
+    display: inline-block;
+    a{
+      display: inline-block;
+      color: $color-white-smoke;
+      text-decoration: none;
+      font-family: 'Roboto Condensed', sans-serif;
+    }
+    h1{
+      line-height: 1;
+      display: inline-block;
+      font-weight: 400;
+      font-size: 56px;
+      margin: 0;
+    }
+    small{
+      font-size: 14px;
+      display: block;
+      font-weight: 300;
+    }
+  }
+}
+
