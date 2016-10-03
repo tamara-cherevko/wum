@@ -1,0 +1,87 @@
+{
+  "parser": "babel-eslint",
+  "ecmaFeatures": {
+    "classes": true,
+    "modules": true
+  },
+  "env": {
+    "es6": true,
+    "jasmine": true
+  },
+  "globals": {
+    "document": false,
+    "window": false,
+    "console": false,
+    "_": false,
+    "$": false,
+    "angular": false,
+    "inject": false,
+    "require": false
+  },
+  "rules": {
+    "arrow-spacing": 1,
+    "block-spacing": 1,
+    "brace-style": 1,
+    "camelcase": 0,
+    "curly": 1,
+    "comma-dangle": 2,
+    "comma-spacing": 1,
+    "dot-notation": 1,
+    "dot-location": 1,
+    "eol-last": 0,
+    "eqeqeq": 1,
+    "indent": [ 2, 4, { "SwitchCase": 1 } ],
+    "jsx-quotes": 2,
+    "key-spacing": 0,
+    "max-len": [ 1, 120, 4, { "ignoreComments": true, "ignoreUrls": true } ],
+    "newline-after-var": 1,
+    "no-cond-assign": 1,
+    "no-constant-condition": 1,
+    "no-const-assign": 1,
+    "no-debugger": 1,
+    "no-dupe-args": 1,
+    "no-dupe-keys": 1,
+    "no-duplicate-case": 1,
+    "no-empty": 1,
+    "no-extra-bind": 1,
+    "no-extra-semi": 1,
+    "no-loop-func": 0,
+    "no-mixed-requires": 1,
+    "no-mixed-spaces-and-tabs": 1,
+    "no-multiple-empty-lines": [ 1, { "max": 1 } ],
+    "no-multi-spaces": [
+      1,
+      {
+        "exceptions": {
+          "VariableDeclarator": true
+        }
+      }
+    ],
+    "no-redeclare": 1,
+    "no-sequences": 1,
+    "no-trailing-spaces": 0,
+    "no-undef": 2,
+    "no-undef-init": 1,
+    "no-undefined": 1,
+    "no-underscore-dangle": 0,
+    "no-unneeded-ternary": 2,
+    "no-unreachable": 1,
+    "no-useless-call": 1,
+    "no-use-before-define": [1, "nofunc"],
+    "no-var": 1,
+    "no-with": 2,
+    "object-shorthand": 1,
+    "operator-assignment": 2,
+    "operator-linebreak": [ 1, "after", { "overrides": { "?": "after" } } ],
+    "prefer-arrow-callback": 1,
+    "prefer-const": 1,
+    "prefer-spread": 1,
+    "quotes": 0,
+    "semi": 2,
+    "space-before-function-paren": [1, "never"],
+    "keyword-spacing": 1,
+    "space-before-blocks": 1,
+    "space-infix-ops": 1,
+    "strict": 2
+  }
+}

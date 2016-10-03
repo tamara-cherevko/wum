@@ -1,6 +1,7 @@
 require.context("./images", true);
 
-import 'babel/polyfill';
+import 'jquery';
+import 'lodash';
 import './styles/styles.scss';
 
 window.console = window.console || {error() {}, log() {}, debug() {}};

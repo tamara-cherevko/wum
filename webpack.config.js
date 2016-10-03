@@ -27,11 +27,7 @@ module.exports = {
                 exclude: /node_modules/,
                 loader: [
                     'react-hot',
-                    'babel?optional[]=es7.classProperties&optional[]=es7.objectRestSpread&optional[]=es7.decorators',
-                    'autoimport?config[]=checkIfUsed&' + [
-                        '$=jquery',
-                        '_=lodash'
-                    ].join(','),
+                    'babel',
                     'eslint'
                 ].join('!')
             },
